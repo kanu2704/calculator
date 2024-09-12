@@ -1,0 +1,76 @@
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.cal{
+    margin-top:50px;
+    display:flex;
+    flex-direction:column;
+    height:450px;
+    width:300px;
+    border:2px solid black;
+    border-radius:10px;
+}
+.display{
+    flex:2.5;
+    background-color:#303030;
+    margin:4px;
+    border-radius: 5px;;
+    align-content:end;
+    text-align:end;
+    color:white;
+    font-size:40px;
+    padding-bottom:10px;
+    padding-right:10px;
+    box-sizing: border-box;
+
+}
+.input_area{
+    display:flex;
+    flex:7.5;
+    margin:3px;
+}
+.area1{
+    display:flex;
+    flex:1.5;
+}
+.evaluate{
+    background-color: #FF8300;
+    cursor: pointer;
+}
+.button,
+.equal{
+    background-color: #C8C8C8;
+    cursor: pointer;
+}
+.equal{
+    flex:1;
+}
+.button,
+.equal,
+.evaluate,
+.op{
+    flex:1;
+    margin:3px;
+    box-sizing: border-box;
+    align-content: center;
+    text-align:center;
+    font-size:20px;
+
+    border-radius:5px;
+}
+.operator{
+    display:flex;
+    flex-direction:column;
+    flex:30;
+}
+.operations{
+    display:flex;
+    flex-direction:column;
+    flex:10;
+}
+.op{
+    background-color: #606060;
+}
+
